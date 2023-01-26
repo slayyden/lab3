@@ -30,7 +30,7 @@ public class ListTests {
             Arrays.asList(new String[]{"Apple", "Banana", "Carrot", "Dog"});
         StringChecker checkForA = new containsCharacter('a');
         
-        String[] expected = {"Apple", "Banana", "Carrot"};
+        String[] expected = {"Banana", "Carrot"};
         assertArrayEquals(expected, ListExamples.filter(input1, checkForA).toArray());
     }
 
